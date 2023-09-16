@@ -5,7 +5,7 @@ const NavigationBar = () => {
     <nav className='bg-blue-500 p-4'>
       <div className='container mx-auto flex justify-between items-center'>
         {/* Logo */}
-        <div className='text-white text-2xl font-bold'>My Summer Camp</div>
+        <div className='text-white text-2xl font-bold'>LanguageLoom Lodge</div>
 
         {/* Menu */}
         <ul className='flex space-x-4'>
