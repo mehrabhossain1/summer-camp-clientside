@@ -21,7 +21,7 @@ const NavigationBar = () => {
           </li>
           <li>
             <NavLink
-              to='/instructors'
+              to='/all-instructors'
               className='text-white hover:text-blue-300 transition duration-300'
               activeClassName='text-blue-300'
             >
@@ -30,7 +30,7 @@ const NavigationBar = () => {
           </li>
           <li>
             <NavLink
-              to='/classes'
+              to='/all-classes'
               className='text-white hover:text-blue-300 transition duration-300'
               activeClassName='text-blue-300'
             >
