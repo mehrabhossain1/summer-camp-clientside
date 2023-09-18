@@ -18,7 +18,14 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-
+      {
+        path: "login",
+        element: <Login />,
+      },
+      {
+        path: "signup",
+        element: <SignUp />,
+      },
       {
         path: "all-instructors",
         element: <Instructors />,
@@ -29,14 +36,7 @@ export const router = createBrowserRouter([
       },
     ],
   },
-  {
-    path: "login",
-    element: <Login />,
-  },
-  {
-    path: "signup",
-    element: <SignUp />,
-  },
+
   {
     path: "dashboard",
     element: <DashboardLayout />,
