@@ -26,8 +26,8 @@ const NavigationBar = () => {
   return (
     <>
       <nav
-        className={`fixed z-10 top-0 left-0 w-full px-24 transition-all ${
-          isNotHomeRoute // Apply fixed background and position for non-home routes
+        className={`fixed z-10 top-0 left-0 w-full px-24 transition-all duration-500 ${
+          isNotHomeRoute
             ? "bg-white shadow-lg text-black"
             : scrolling
             ? "bg-white shadow-lg text-black"

@@ -11,7 +11,7 @@ const Banner = () => {
   };
 
   return (
-    <Carousel effect='fade' autoplay className=''>
+    <Carousel effect='fade' autoplay>
       <div>
         <h3 style={contentStyle}>
           <img src={banner} alt='Banner Image' />
